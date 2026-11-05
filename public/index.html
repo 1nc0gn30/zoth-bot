@@ -690,6 +690,22 @@
         `✔ Response: [Desk Companion Active] Ring ${activeRing} (${activeRingName}) approved action at ${new Date().toLocaleTimeString()}.`;
     }
   </script>
-  <script src="/assets/sovereign-upgrade.js" defer></script>
+  
+
+  <script src="/sovereign_tutorial.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      if (window.createSovereignTutorial) {
+        window.createSovereignTutorial({
+          toolId: "zoth-bot",
+          toolName: "Zoth Bot Desktop Companion",
+          tagline: "Autonomous holographic AI companion with live voice and system automation!",
+          accentColor: "#A855F7",
+          steps: [{"icon": "\ud83e\udd16", "title": "Your Personal AI Wingman", "desc": "A desktop assistant that monitors your workstation, organizes your notes, and helps you code hands-free."}, {"icon": "\ud83c\udf99\ufe0f", "title": "Full-Duplex Natural Voice", "desc": "Talk back and forth without lag or awkward wake-word pauses."}, {"icon": "\ud83d\udee1\ufe0f", "title": "Private & Air-Gapped", "desc": "Can run completely offline using local weights on ZothOS without sending personal data to the cloud."}]
+        });
+      }
+    });
+  </script>
+
 </body>
 </html>
