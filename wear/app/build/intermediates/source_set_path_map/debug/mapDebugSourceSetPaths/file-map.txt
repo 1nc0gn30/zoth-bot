@@ -1,7 +1,0 @@
-com.nullai.zothbot.app-pngs-0 /opt/zoth-bot/wear/app/build/generated/res/pngs/debug
-com.nullai.zothbot.app-resValues-1 /opt/zoth-bot/wear/app/build/generated/res/resValues/debug
-com.nullai.zothbot.app-packageDebugResources-2 /opt/zoth-bot/wear/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.nullai.zothbot.app-packageDebugResources-3 /opt/zoth-bot/wear/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.nullai.zothbot.app-debug-4 /opt/zoth-bot/wear/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.nullai.zothbot.app-debug-5 /opt/zoth-bot/wear/app/src/debug/res
-com.nullai.zothbot.app-main-6 /opt/zoth-bot/wear/app/src/main/res

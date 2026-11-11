@@ -61,8 +61,7 @@ class ZothBotHandler(http.server.SimpleHTTPRequestHandler):
                 "harnesses": DEFAULT_HARNESSES,
                 "pricing": "100% Free & Open-Access",
                 "support": {
-                    "stripe": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
-                    "solana": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK"
+                    "stripe": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X"
                 }
             })
             return
